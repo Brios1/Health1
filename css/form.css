@@ -1,0 +1,161 @@
+.form-block {
+  box-sizing: border-box;
+}
+
+.form-block * {
+  box-sizing: inherit;
+}
+.form-block label {
+  display: block;
+  font-size: 16px;
+}
+.form-block img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+.formfooter {
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 45px 45px 25px 45px;
+}
+
+@media (max-width: 767px) {
+  .formfooter {
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .formfooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  .form-block {
+    flex: 0 1 100%;
+  }
+}
+
+.alfapack {
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.formfooter h1 {
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  float: left;
+  width: 100%;
+  display: block;
+}
+
+.main-price {
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  font-size: 38px;
+  margin-bottom: 1em;
+}
+
+.main-price sup {
+  color: #000;
+  text-decoration: line-through;
+}
+
+@media (max-width: 992px) {
+  .formfooter h1 {
+    margin-top: 1em;
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  .formfooter h1 {
+    font-size: 36px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}
+
+.input-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-group input {
+  width: 100%;
+  padding: 30px 0 !important;
+  font-size: 17px;
+  color: #1e0500 !important;
+  outline: 0;
+  border: 0;
+  border-bottom: 4px solid #1e0500 !important;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+#footform input,
+#footform select {
+    display: block;
+  width: 100%;
+  padding: 10px 0 !important;
+  font-size: 21px;
+  color: #000 !important;
+  text-align: center;
+  outline: 0;
+  border: 1px solid #000 !important;
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 767px) {
+  input.button,
+  .button {
+    padding: 25px 55px 25px 25px;
+    line-height: 25px;
+  }
+}
+
+#footform .button {
+  display: inline-block;
+  width: 100% !important;
+  position: relative;
+  font-size: 21px !important;
+  padding: 25px 60px 25px 30px !important;
+  background: url(../img/arrow.svg) 94% 52% no-repeat !important;
+  background-color: #bb292e !important;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 0 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
